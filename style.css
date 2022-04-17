@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Anek+Odia:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    height: 100vh;
+    background: linear-gradient(
+      to left,
+     #0466c8 0%,
+      #0466c8 50%,
+      #000814 50%,
+      #000814 100%
+    );
+    
+  }
+
+
+    #nt-icon{ float:right;
+        border:1px solid #0466c8;
+        left: -30px;
+        
+        height:90px;
+      
+      
+    }
+
+.topnavigation { 
+  overflow: hidden;
+    width: 100%;
+}
+
+.topnavigation a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+
+.topnavigation a:hover {
+  background-color: #ddd;
+  color:#0077b6;
+  border-radius:20px;
+  font-size:20px;
+}
+
+.topnavigation a.active {
+  background-color:;
+  color: white;
+  border-radius:20px;
+}
+.topnavigation a.active:hover {
+    background-color:white;
+    color:darkblue;
+    font-size:20px;
+}
+
+.container{
+    width:75%;
+    height:auto;
+    background-color:#1e1e1a;
+    position:absolute;
+    top:15%;
+    left:12%;
+    transition:all 0.3s;
+}
+.container:hover{
+    background-color:#00507b;
+}
+.container:hover h1{
+        color:black;
+}
+.container h1{ font-family: 'Akshar', sans-serif;
+        color:rgb(155, 23, 23);
+        font-size:70px;
+        padding-left: 10px;
+        text-align: center;
+}
+#teslaimage{
+    width:300px;
+    float:right;
+}
+.container h2{ font-family: 'Akshar', sans-serif;
+        font-size:35px;
+        color:#7d8597;
+        padding:10px;
+        margin:0px;
+}
+.container p{
+    font-size:30px;
+    padding:10px;
+    margin:0px;
+    color:#979dac;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom:20px;
+}
+.aboutUs{ margin-top:100px;
+    position: absolute;
+    background-color:#1e1e1a;
+    width: 90%;
+    top:100vh;
+    left:5%;
+    height:auto;
+    margin-bottom:20px;
+    transition: all 0.3s;
+   
+}
+.aboutUs:hover{
+    background-color:#00507b;
+}
+.aboutUs:hover h1{
+    color:black;
+}
+.aboutUs h1{ font-family: 'Akshar', sans-serif;
+    color:rgb(155, 23, 23);
+    font-size:70px;
+    padding-left: 10px;
+    margin-left:10px;
+    
+    /* text-align: center; */
+}
+.aboutUs p{
+    font-size:30px;
+    padding:10px;
+    margin:0px;
+    color:#979dac;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom:20px;
+}
+
+.members{
+        position:absolute;
+        background-color:#1e1e1a;
+        width:90%;
+        top:190vh;
+    left:5%;
+    height:auto;
+    margin-bottom:20px;
+    transition: all 0.3s;
+}
+
+.members h1{font-family: 'Akshar', sans-serif;
+    color:rgb(155, 23, 23);
+    font-size:50px;
+    text-decoration: underline;
+    text-align: center;
+    padding-left: 10px;
+    margin-left:10px;
+    
+}
+
+    .members:hover{
+        background-color:#00507b;}
+    .members:hover h1{
+        color:black;
+    }
+.members ul{
+    display:grid;
+    width:100%;
+   grid-template-columns: auto auto auto; 
+    font-size:30px;
+    margin:10px;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+.member ul a{
+    padding:5px; margin:5px;
+    color:#979dac;
+    
+}
+#links{
+    color:white;
+        margin:10px;
+        list-style: none;
+        
+}
+footer{ display:flex;
+    justify-content: space-around;
+    position:absolute;
+    top:250vh;
+    width:100%;
+    background-color:black;
+}
+footer p{font-size:20px;}
+footer h3{font-size:30px;}
+footer h3,p{color:white;
+    margin:10px;
+    padding:5px;
+}
+#footer-right{ font-size:15px;  
+    
+}
